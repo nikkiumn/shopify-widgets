@@ -1,0 +1,28 @@
+#This is a HTML I wrote for putting a 'buy from amazon' button in Shopify Product Description. It is a much easier workaround than customizing the theme.
+
+<style><!--
+.button {
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: none;
+  cursor: pointer;
+}
+.button:hover {background-color: #F5BF76}
+
+.button:active {
+  background-color: #717070;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button1 {background-color: #F29D38;}
+--></style>
+<div><a href="  !!!!!!!!INSERT LINK HERE!!!!!!!!!   " target="_blank" rel="noopener noreferrer">
+<span style="text-decoration-style: none; color: #ffffff; font-family: 'Nunito Sans';">
+<button class="button button1"><span face="Nunito Sans" style="font-family: Nunito Sans;">BUY FROM AMAZON</span></button></span></a> <br></div>
